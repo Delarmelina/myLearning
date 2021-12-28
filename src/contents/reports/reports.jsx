@@ -27,6 +27,7 @@ export default props => (
                 title='Sugestões'
                 description='Sugestões de Melhorias'
                 color='info'
+                link='sugestoes'
                 icon={<FaIcon.FaChartLine />} />
         </div>
     </Content>

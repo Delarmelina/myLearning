@@ -23,7 +23,7 @@ export default props => (
       <Route path='/reports/rdv' element={<RDV />} />
       <Route path='/reports/rdo' element={<RDO />} />
       <Route path='/reports/reembolso' element={<Reembolso />} />
-      <Route path='/reports/sugestões' element={<Sugestion />} />
+      <Route path='/reports/sugestoes' element={<Sugestion />} />
 
     </Routes>
   </BrowserRouter>

@@ -13,7 +13,7 @@ export default props => {
     }
 
     return (
-        <a href={`./Reports/${props.title.toLowerCase()).normalize('NFD')`} className='col-lg-4 col-6 pointer-event'>
+        <a href={`./Reports/${props.link || props.title}`} className='col-lg-4 col-6 pointer-event'>
             <div className={`small-box bg-${props.color}`}>
                 <div className='inner'>
                     <h3>{props.title}</h3>
